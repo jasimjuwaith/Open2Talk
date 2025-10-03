@@ -1,4 +1,4 @@
-# 📰 Anonymous Journal
+# 📰 Open2Talk
 
 A secure, Medium-like platform for anonymous article publishing.  
 This project empowers **journalists, whistleblowers, and activists** to share the truth without fear—by protecting their identity.
@@ -25,23 +25,23 @@ This project empowers **journalists, whistleblowers, and activists** to share th
 
 ## 📁 Project Structure
 
-Open2Talk/
-├── backend/               # Node.js + Express API
-│   ├── src/
-│   │   ├── controllers/   # Post logic
-│   │   ├── models/        # MongoDB schemas
-│   │   ├── routes/        # Express routes
-│   │   └── app.js         # Main app entry
-│   ├── Dockerfile
-│   └── package.json
-│
-├── frontend/              # React + Tailwind frontend
-│   ├── src/               # Components & pages
-│   ├── Dockerfile
-│   └── package.json
-│
-├── docker-compose.yml     # Orchestration for backend + frontend + DB
-└── README.md
+Open2Talk/  
+├── backend/               # Node.js + Express API  
+│   ├── src/  
+│   │   ├── controllers/   # Post logic  
+│   │   ├── models/        # MongoDB schemas  
+│   │   ├── routes/        # Express routes  
+│   │   └── app.js         # Main app entry  
+│   ├── Dockerfile  
+│   └── package.json  
+│  
+├── frontend/              # React + Tailwind frontend  
+│   ├── src/               # Components & pages  
+│   ├── Dockerfile  
+│   └── package.json  
+│  
+├── docker-compose.yml     # Orchestration for backend + frontend + DB  
+└── README.md  
 
 ---
 
